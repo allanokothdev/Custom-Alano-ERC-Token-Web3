@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Alano Token",
+  "name": "ERC 20 Token",
   "icons": [
     {
       "src": "favicon.ico",
