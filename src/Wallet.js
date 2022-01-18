@@ -73,10 +73,13 @@ const Wallet = () => {
 
 
 return (
-    <div>
-      <h2> {tokenName + " ERC-20 Wallet"} </h2>
-      <button className = {styles.button6} onClick = {connectWalletHandler}>{connButtonText}</button>
-      
+    <div style={{alignItems: 'center'}}>
+
+      <div className = {styles.walletCard}>
+        <h2 className = "headerText"> {tokenName + " ERC-20 Wallet"} </h2>
+        <button className = {styles.button6} onClick = {connectWalletHandler}>{connButtonText}</button>
+      </div>  
+     
       <div className = {styles.walletCard}>
         
         <div> 

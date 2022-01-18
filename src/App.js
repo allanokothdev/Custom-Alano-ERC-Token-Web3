@@ -4,7 +4,9 @@ import Wallet from "./Wallet.js";
 
 function App() {
   return (
-     < Wallet />
+    <div>
+      <Wallet />
+    </div>
   );
 }
 
